@@ -96,6 +96,9 @@ streamlit run app.py
 
 **Mohammed Shafiulla**  
 
+
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/mdshafi-786)
+
 ---
 
 ## 📄 License
