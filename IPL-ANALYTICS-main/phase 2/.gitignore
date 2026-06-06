@@ -1,0 +1,115 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Jupyter Notebooks ────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Jupyter lab settings
+.jupyter/
+
+# ── Data Files ───────────────────────────────────────────
+# Raw datasets (too large for GitHub — store separately)
+data/
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.hdf5
+*.h5
+*.db
+*.sqlite
+*.sqlite3
+
+# ── ML Models ────────────────────────────────────────────
+# Exclude large model files (keep ipl_chase_model.pkl tracked manually)
+# Uncomment the line below if you want to exclude all .pkl files
+# *.pkl
+
+# Large intermediate model artifacts
+*.joblib
+models/checkpoints/
+runs/
+
+# ── Streamlit ────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── IDEs & Editors ───────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# PyCharm
+.idea/
+
+# Spyder
+.spyderproject.proj
+.spyproject
+
+# ── OS Files ─────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Logs & Temp ──────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+logs/
+temp/
+tmp/
+
+# ── Environment Variables ────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ── Coverage & Testing ───────────────────────────────────
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+nosetests.xml
+
+# ── Misc ─────────────────────────────────────────────────
+*.bak
+*.orig
+output/
+outputs/

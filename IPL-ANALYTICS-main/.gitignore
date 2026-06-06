@@ -1,0 +1,94 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Jupyter Notebooks ────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Data Files ───────────────────────────────────────────
+# Raw datasets (too large for GitHub)
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+
+# ── ML Models ────────────────────────────────────────────
+# Large model files are tracked via Git LFS (see .gitattributes)
+*.joblib
+models/checkpoints/
+runs/
+
+# ── Streamlit ────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── IDEs & Editors ───────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# ── OS Files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ── Logs & Temp ──────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+logs/
+temp/
+tmp/
+
+# ── Environment Variables ────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Coverage & Testing ───────────────────────────────────
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+
+# ── Keep assets tracked ─────────────────────────────────
+# Chart PNGs in assets/ folders are curated outputs, not throwaway
+!**/assets/
